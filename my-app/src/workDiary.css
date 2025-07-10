@@ -1,0 +1,74 @@
+.work-diary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.container {
+  border: 1px solid black;
+  width: 450px;
+  padding: 15px 15px;
+  border-radius: 10px;
+  background-color: #FB9BCB;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.date {
+  display: flex;
+  justify-content: right;
+}
+
+.underline-input {
+  border: none; /* Remove all borders */
+  border-bottom: 2px solid green; /* Add a bottom border */
+  outline: none; /* Remove the outline that appears when the input is focused */
+  width: 90px; /* Optional: Set the width */
+  background-color:#FB9BCB ;
+}
+.add_input {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border: none;
+    outline: none;
+    width: 260px;
+    margin-bottom: 15px;
+}
+.add_button {
+    background-color: #165BAA;
+    color: whitesmoke;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+
+}
+input[type="checkbox"] {
+    width: 17px;    /* Custom width */
+    height: 17px;   /* Custom height */
+    transform: scale(1); /* Increase the size */
+    margin-left: 15px;
+    background-color: green;
+}
+.text_area {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border: none;
+    outline: none;
+    padding: 8px;
+   
+}
+
+.task-detail-container {
+    display: flex;
+    align-items: flex-start; /* Align textarea and button vertically */
+    gap: 10px; /* Add space between textarea and button */
+  }
+  
+
+  
+  .save_button {
+    height: fit-content; /* Adjust height to match the textarea */
+    padding: 6px 12px;
+    white-space: nowrap; /* Prevent text from wrapping */
+    font-size: 16px;
+  }
+  
+    
